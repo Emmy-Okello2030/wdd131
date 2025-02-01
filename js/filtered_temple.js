@@ -100,4 +100,8 @@ window.addEventListener('DOMContentLoaded', () => {
     const currentYear = new Date().getFullYear();
     document.getElementById('year').textContent = currentYear;
     document.getElementById('last-modified').textContent = document.lastModified;
+
+
+
+    
 });
