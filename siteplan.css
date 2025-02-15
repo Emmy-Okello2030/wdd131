@@ -1,37 +1,8 @@
-<<<<<<< HEAD
-/* General Styles */
-=======
->>>>>>> e09774d0583306ce3b19c872a5a7199b13a3e2b4
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-}
-
-/* Header */
-header {
-    background-color: #0077cc;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-}
-
-/* Main Section */
-main {
-    width: 90%;
-    max-width: 600px;
-    margin: 20px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Form Styles */
-form {
-=======
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +31,6 @@ form {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
->>>>>>> e09774d0583306ce3b19c872a5a7199b13a3e2b4
     display: flex;
     flex-direction: column;
 }
@@ -72,11 +42,7 @@ label {
 
 input, select, textarea {
     width: 100%;
-<<<<<<< HEAD
-    padding: 8px;
-=======
     padding: 10px;
->>>>>>> e09774d0583306ce3b19c872a5a7199b13a3e2b4
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -88,35 +54,6 @@ input, select, textarea {
     gap: 10px;
 }
 
-<<<<<<< HEAD
-.checkbox-group input {
-    margin-right: 5px;
-}
-
-/* Submit Button */
-button {
-    margin-top: 15px;
-    background-color: #0077cc;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #005fa3;
-}
-
-/* Footer */
-.footer {
-    text-align: center;
-    padding: 15px;
-    background-color: #0077cc;
-    color: white;
-    margin-top: 20px;
-}
-=======
 button {
     background-color: #4CAF50;
     color: white;
@@ -186,4 +123,3 @@ footer {
     }
 }
 
->>>>>>> e09774d0583306ce3b19c872a5a7199b13a3e2b4
