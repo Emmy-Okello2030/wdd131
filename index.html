@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bay Area eBiking Club - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Bay Area eBiking Club</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to the Bay Area eBiking Club! We are a community of e-biking enthusiasts who enjoy exploring the beautiful Bay Area on our electric bikes. Join us for group rides, exciting events, and more!</p>
+        </section>
+
+        <section>
+            <h2>Why Join Us?</h2>
+            <ul>
+                <li>🚴 Group rides through scenic Bay Area routes</li>
+                <li>⚡ Exclusive discounts on e-bike accessories</li>
+                <li>🎉 Fun events and workshops</li>
+                <li>🤝 Meet like-minded e-bike enthusiasts</li>
+            </ul>
+            <p><a href="membership.html" class="cta-button">Join Now</a></p>
+        </section>
+
+        <section>
+            <h2>Upcoming Events</h2>
+            <p>Check out our latest events and rides!</p>
+            <ul>
+                <li><strong>🗓️ February 20:</strong> Sunset Ride at Golden Gate Park</li>
+                <li><strong>🗓️ March 5:</strong> E-Bike Maintenance Workshop</li>
+                <li><strong>🗓️ March 15:</strong> Group Ride to Silicon Valley</li>
+            </ul>
+            <p><a href="events.html" class="cta-button">View All Events</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Bay Area eBiking Club | All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

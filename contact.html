@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bay Area eBiking Club - Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bay Area eBiking Club - Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <p>Have questions or want to join us? Reach out through the form below or use our contact details.</p>
+            
+            <div class="contact-info">
+                <p><strong>📍 Location:</strong> Bay Area, California</p>
+                <p><strong>📞 Phone:</strong> <a href="tel:+11234567890">+1 (123) 456-7890</a></p>
+                <p><strong>📧 Email:</strong> <a href="mailto:info@baebikingclub.com">info@baebikingclub.com</a></p>
+            </div>
+
+            <form id="contact-form">
+                <fieldset>
+                    <legend>Send Us a Message</legend>
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required aria-label="Your Name">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required aria-label="Your Email Address">
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required aria-label="Your Message"></textarea>
+
+                    <button type="submit">Send</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section>
+            <h2>Visit Us</h2>
+            <p>Come ride with us or visit our meeting point.</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093496!2d-122.41941558467739!3d37.774929779759885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e2af3c3e3f7%3A0xabc123456789!2sBay%20Area!5e0!3m2!1sen!2sus!4v1649338400000"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Bay Area eBiking Club | All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
